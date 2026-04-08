@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Asus\\Music\\Qu\u1EA3n_l\u00FD_chi_ti\u00EAu_trong_gia_\u0111\u00ECnh\\Backend\\FamilyExpenseTracker\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8AA7F6BC-459C-4362-9697-6D559E5C7680}|FamilyExpenseTracker.csproj|c:\\users\\asus\\music\\qu\u1EA3n_l\u00FD_chi_ti\u00EAu_trong_gia_\u0111\u00ECnh\\backend\\familyexpensetracker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8AA7F6BC-459C-4362-9697-6D559E5C7680}|FamilyExpenseTracker.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AA7F6BC-459C-4362-9697-6D559E5C7680}|FamilyExpenseTracker.csproj|c:\\users\\asus\\music\\qu\u1EA3n_l\u00FD_chi_ti\u00EAu_trong_gia_\u0111\u00ECnh\\backend\\familyexpensetracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AA7F6BC-459C-4362-9697-6D559E5C7680}|FamilyExpenseTracker.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8AA7F6BC-459C-4362-9697-6D559E5C7680}|FamilyExpenseTracker.csproj|c:\\users\\asus\\music\\qu\u1EA3n_l\u00FD_chi_ti\u00EAu_trong_gia_\u0111\u00ECnh\\backend\\familyexpensetracker\\services\\danhmucservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8AA7F6BC-459C-4362-9697-6D559E5C7680}|FamilyExpenseTracker.csproj|solutionrelative:services\\danhmucservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8AA7F6BC-459C-4362-9697-6D559E5C7680}|FamilyExpenseTracker.csproj|c:\\users\\asus\\music\\qu\u1EA3n_l\u00FD_chi_ti\u00EAu_trong_gia_\u0111\u00ECnh\\backend\\familyexpensetracker\\controllers\\danhmuccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8AA7F6BC-459C-4362-9697-6D559E5C7680}|FamilyExpenseTracker.csproj|solutionrelative:controllers\\danhmuccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8AA7F6BC-459C-4362-9697-6D559E5C7680}|FamilyExpenseTracker.csproj|c:\\users\\asus\\music\\qu\u1EA3n_l\u00FD_chi_ti\u00EAu_trong_gia_\u0111\u00ECnh\\backend\\familyexpensetracker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{8AA7F6BC-459C-4362-9697-6D559E5C7680}|FamilyExpenseTracker.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8AA7F6BC-459C-4362-9697-6D559E5C7680}|FamilyExpenseTracker.csproj|c:\\users\\asus\\music\\qu\u1EA3n_l\u00FD_chi_ti\u00EAu_trong_gia_\u0111\u00ECnh\\backend\\familyexpensetracker\\services\\nguoidungservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8AA7F6BC-459C-4362-9697-6D559E5C7680}|FamilyExpenseTracker.csproj|c:\\users\\asus\\music\\qu\u1EA3n_l\u00FD_chi_ti\u00EAu_trong_gia_\u0111\u00ECnh\\backend\\familyexpensetracker\\familyexpensetracker.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{8AA7F6BC-459C-4362-9697-6D559E5C7680}|FamilyExpenseTracker.csproj|solutionrelative:familyexpensetracker.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8AA7F6BC-459C-4362-9697-6D559E5C7680}|FamilyExpenseTracker.csproj|c:\\users\\asus\\music\\qu\u1EA3n_l\u00FD_chi_ti\u00EAu_trong_gia_\u0111\u00ECnh\\backend\\familyexpensetracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8AA7F6BC-459C-4362-9697-6D559E5C7680}|FamilyExpenseTracker.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8AA7F6BC-459C-4362-9697-6D559E5C7680}|FamilyExpenseTracker.csproj|c:\\users\\asus\\music\\qu\u1EA3n_l\u00FD_chi_ti\u00EAu_trong_gia_\u0111\u00ECnh\\backend\\familyexpensetracker\\dtos\\dangnhaprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -106,7 +106,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -133,8 +133,12 @@
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "DanhMucController.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Music\\Qu\u1EA3n_l\u00FD_chi_ti\u00EAu_trong_gia_\u0111\u00ECnh\\Backend\\FamilyExpenseTracker\\Controllers\\DanhMucController.cs",
               "RelativeDocumentMoniker": "Controllers\\DanhMucController.cs",
@@ -146,7 +150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "NguoiDungController.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Music\\Qu\u1EA3n_l\u00FD_chi_ti\u00EAu_trong_gia_\u0111\u00ECnh\\Backend\\FamilyExpenseTracker\\Controllers\\NguoiDungController.cs",
               "RelativeDocumentMoniker": "Controllers\\NguoiDungController.cs",
@@ -158,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "GiaoDichController.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Music\\Qu\u1EA3n_l\u00FD_chi_ti\u00EAu_trong_gia_\u0111\u00ECnh\\Backend\\FamilyExpenseTracker\\Controllers\\GiaoDichController.cs",
               "RelativeDocumentMoniker": "Controllers\\GiaoDichController.cs",
@@ -170,7 +174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "NguoiDungService.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Music\\Qu\u1EA3n_l\u00FD_chi_ti\u00EAu_trong_gia_\u0111\u00ECnh\\Backend\\FamilyExpenseTracker\\Services\\NguoiDungService.cs",
               "RelativeDocumentMoniker": "Services\\NguoiDungService.cs",
@@ -182,7 +186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "VerifyResetOtpRequest.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Music\\Qu\u1EA3n_l\u00FD_chi_ti\u00EAu_trong_gia_\u0111\u00ECnh\\Backend\\FamilyExpenseTracker\\Dtos\\VerifyResetOtpRequest.cs",
               "RelativeDocumentMoniker": "Dtos\\VerifyResetOtpRequest.cs",
@@ -194,7 +198,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "DanhMucService.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Music\\Qu\u1EA3n_l\u00FD_chi_ti\u00EAu_trong_gia_\u0111\u00ECnh\\Backend\\FamilyExpenseTracker\\Services\\DanhMucService.cs",
               "RelativeDocumentMoniker": "Services\\DanhMucService.cs",
@@ -206,24 +210,34 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Asus\\Music\\Qu\u1EA3n_l\u00FD_chi_ti\u00EAu_trong_gia_\u0111\u00ECnh\\Backend\\FamilyExpenseTracker\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Users\\Asus\\Music\\Qu\u1EA3n_l\u00FD_chi_ti\u00EAu_trong_gia_\u0111\u00ECnh\\Backend\\FamilyExpenseTracker\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-06T03:50:24.531Z"
+              "WhenOpened": "2026-04-06T03:50:24.531Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Music\\Qu\u1EA3n_l\u00FD_chi_ti\u00EAu_trong_gia_\u0111\u00ECnh\\Backend\\FamilyExpenseTracker\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Asus\\Music\\Qu\u1EA3n_l\u00FD_chi_ti\u00EAu_trong_gia_\u0111\u00ECnh\\Backend\\FamilyExpenseTracker\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwB4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T03:50:40.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "ResetPasswordRequest.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Music\\Qu\u1EA3n_l\u00FD_chi_ti\u00EAu_trong_gia_\u0111\u00ECnh\\Backend\\FamilyExpenseTracker\\Dtos\\ResetPasswordRequest.cs",
               "RelativeDocumentMoniker": "Dtos\\ResetPasswordRequest.cs",
@@ -235,7 +249,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ForgotPasswordRequest.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Music\\Qu\u1EA3n_l\u00FD_chi_ti\u00EAu_trong_gia_\u0111\u00ECnh\\Backend\\FamilyExpenseTracker\\Dtos\\ForgotPasswordRequest.cs",
               "RelativeDocumentMoniker": "Dtos\\ForgotPasswordRequest.cs",
@@ -247,7 +261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "PasswordResetOtp.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Music\\Qu\u1EA3n_l\u00FD_chi_ti\u00EAu_trong_gia_\u0111\u00ECnh\\Backend\\FamilyExpenseTracker\\Models\\PasswordResetOtp.cs",
               "RelativeDocumentMoniker": "Models\\PasswordResetOtp.cs",
@@ -259,7 +273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "QuanLyChiTieuDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Music\\Qu\u1EA3n_l\u00FD_chi_ti\u00EAu_trong_gia_\u0111\u00ECnh\\Backend\\FamilyExpenseTracker\\Models\\QuanLyChiTieuDbContext.cs",
               "RelativeDocumentMoniker": "Models\\QuanLyChiTieuDbContext.cs",
@@ -271,7 +285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "FamilyExpenseTracker.csproj",
               "DocumentMoniker": "C:\\Users\\Asus\\Music\\Qu\u1EA3n_l\u00FD_chi_ti\u00EAu_trong_gia_\u0111\u00ECnh\\Backend\\FamilyExpenseTracker\\FamilyExpenseTracker.csproj",
               "RelativeDocumentMoniker": "FamilyExpenseTracker.csproj",
@@ -292,18 +306,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-06T06:56:28.193Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\Music\\Qu\u1EA3n_l\u00FD_chi_ti\u00EAu_trong_gia_\u0111\u00ECnh\\Backend\\FamilyExpenseTracker\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Asus\\Music\\Qu\u1EA3n_l\u00FD_chi_ti\u00EAu_trong_gia_\u0111\u00ECnh\\Backend\\FamilyExpenseTracker\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAgwB4AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T03:50:40.339Z"
             },
             {
               "$type": "Document",

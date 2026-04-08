@@ -106,7 +106,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -131,10 +131,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             },
             {
               "$type": "Document",
@@ -206,8 +202,7 @@
               "RelativeToolTip": "Services\\DanhMucService.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAiwCUAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T03:49:08.191Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-06T03:49:08.191Z"
             },
             {
               "$type": "Document",
@@ -217,7 +212,7 @@
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Users\\Asus\\Music\\Qu\u1EA3n_l\u00FD_chi_ti\u00EAu_trong_gia_\u0111\u00ECnh\\Backend\\FamilyExpenseTracker\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-04-06T03:50:24.531Z",
               "EditorCaption": ""
@@ -232,8 +227,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAgwB4AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T03:50:40.339Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-06T03:50:40.339Z"
             },
             {
               "$type": "Document",
@@ -426,6 +420,10 @@
               "ViewState": "AgIAABYAAAAAAAAAAIBQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-06T03:51:00.276Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             }
           ]
         }
