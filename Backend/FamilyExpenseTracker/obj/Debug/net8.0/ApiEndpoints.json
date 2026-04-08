@@ -1,0 +1,214 @@
+[
+  {
+    "ContainingType": "FamilyExpenseTracker.Controllers.DanhMucController",
+    "Method": "GetAll",
+    "RelativePath": "api/DanhMuc",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FamilyExpenseTracker.Controllers.DanhMucController",
+    "Method": "Create",
+    "RelativePath": "api/DanhMuc",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "FamilyExpenseTracker.Controllers.CategoryCreateRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FamilyExpenseTracker.Controllers.DanhMucController",
+    "Method": "Delete",
+    "RelativePath": "api/DanhMuc/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FamilyExpenseTracker.Controllers.GiaoDichController",
+    "Method": "TaoGiaoDich",
+    "RelativePath": "api/GiaoDich",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "FamilyExpenseTracker.Dtos.TaoGiaoDichRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FamilyExpenseTracker.Controllers.GiaoDichController",
+    "Method": "LayLichSuGiaoDich",
+    "RelativePath": "api/GiaoDich/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FamilyExpenseTracker.Controllers.GiaoDichController",
+    "Method": "LayThongKeDashboard",
+    "RelativePath": "api/GiaoDich/dashboard/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FamilyExpenseTracker.Controllers.NguoiDungController",
+    "Method": "DangKy",
+    "RelativePath": "api/NguoiDung/dangky",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "FamilyExpenseTracker.Dtos.DangKyRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FamilyExpenseTracker.Controllers.NguoiDungController",
+    "Method": "DangNhap",
+    "RelativePath": "api/NguoiDung/dangnhap",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "FamilyExpenseTracker.Dtos.DangNhapRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FamilyExpenseTracker.Controllers.NguoiDungController",
+    "Method": "ForgotPassword",
+    "RelativePath": "api/NguoiDung/forgot-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "FamilyExpenseTracker.Dtos.ForgotPasswordRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FamilyExpenseTracker.Controllers.NguoiDungController",
+    "Method": "GetProfile",
+    "RelativePath": "api/NguoiDung/profile/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FamilyExpenseTracker.Controllers.NguoiDungController",
+    "Method": "UpdateProfile",
+    "RelativePath": "api/NguoiDung/profile/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "FamilyExpenseTracker.Dtos.UpdateProfileRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FamilyExpenseTracker.Controllers.NguoiDungController",
+    "Method": "ResetPassword",
+    "RelativePath": "api/NguoiDung/reset-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "FamilyExpenseTracker.Dtos.ResetPasswordRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FamilyExpenseTracker.Controllers.NguoiDungController",
+    "Method": "UploadAvatar",
+    "RelativePath": "api/NguoiDung/upload-avatar/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,846 @@
+{
+  "Version": 1,
+  "Hash": "DbPgRz3TqGYc2MTd0xceHCbKuOgsrYlkbcv6f8qXnMY=",
+  "Source": "FamilyExpenseTracker",
+  "BasePath": "_content/FamilyExpenseTracker",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "FamilyExpenseTracker\\wwwroot",
+      "Source": "FamilyExpenseTracker",
+      "ContentRoot": "C:\\Users\\Asus\\Music\\Quản_lý_chi_tiêu_trong_gia_đình\\Backend\\FamilyExpenseTracker\\wwwroot\\",
+      "BasePath": "_content/FamilyExpenseTracker",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Asus\\Music\\Quản_lý_chi_tiêu_trong_gia_đình\\Backend\\FamilyExpenseTracker\\wwwroot\\uploads\\avatars\\38ac2d4c-ed66-451f-9f46-6ff114236363_102008532940594.jpg",
+      "SourceId": "FamilyExpenseTracker",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Asus\\Music\\Quản_lý_chi_tiêu_trong_gia_đình\\Backend\\FamilyExpenseTracker\\wwwroot\\",
+      "BasePath": "_content/FamilyExpenseTracker",
+      "RelativePath": "uploads/avatars/38ac2d4c-ed66-451f-9f46-6ff114236363_102008532940594#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "us92cydbk9",
+      "Integrity": "4n1osByjZiyti4CUtKi5PRB1Q7USYRMzDpz8PHPFx/E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\avatars\\38ac2d4c-ed66-451f-9f46-6ff114236363_102008532940594.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Asus\\Music\\Quản_lý_chi_tiêu_trong_gia_đình\\Backend\\FamilyExpenseTracker\\wwwroot\\uploads\\avatars\\528bf114-d2b2-4491-9356-0a7e9ac96831_109451725519747.jpg",
+      "SourceId": "FamilyExpenseTracker",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Asus\\Music\\Quản_lý_chi_tiêu_trong_gia_đình\\Backend\\FamilyExpenseTracker\\wwwroot\\",
+      "BasePath": "_content/FamilyExpenseTracker",
+      "RelativePath": "uploads/avatars/528bf114-d2b2-4491-9356-0a7e9ac96831_109451725519747#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "org222dgo6",
+      "Integrity": "ZBsSanqLx4o2L9GuGOMhpeKv3VxByaFpnHv96y/DB/g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\avatars\\528bf114-d2b2-4491-9356-0a7e9ac96831_109451725519747.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Asus\\Music\\Quản_lý_chi_tiêu_trong_gia_đình\\Backend\\FamilyExpenseTracker\\wwwroot\\uploads\\avatars\\676a3169-bafc-471c-a54d-a53310694f43_109451725519747.jpg",
+      "SourceId": "FamilyExpenseTracker",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Asus\\Music\\Quản_lý_chi_tiêu_trong_gia_đình\\Backend\\FamilyExpenseTracker\\wwwroot\\",
+      "BasePath": "_content/FamilyExpenseTracker",
+      "RelativePath": "uploads/avatars/676a3169-bafc-471c-a54d-a53310694f43_109451725519747#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "org222dgo6",
+      "Integrity": "ZBsSanqLx4o2L9GuGOMhpeKv3VxByaFpnHv96y/DB/g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\avatars\\676a3169-bafc-471c-a54d-a53310694f43_109451725519747.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Asus\\Music\\Quản_lý_chi_tiêu_trong_gia_đình\\Backend\\FamilyExpenseTracker\\wwwroot\\uploads\\avatars\\a7c50630-1cad-4332-ba08-88259a0a3125_187340714261380.jpg",
+      "SourceId": "FamilyExpenseTracker",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Asus\\Music\\Quản_lý_chi_tiêu_trong_gia_đình\\Backend\\FamilyExpenseTracker\\wwwroot\\",
+      "BasePath": "_content/FamilyExpenseTracker",
+      "RelativePath": "uploads/avatars/a7c50630-1cad-4332-ba08-88259a0a3125_187340714261380#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "g324iuffhf",
+      "Integrity": "nB2UL4wdM9UW/cp6j5e5jEJRzFDLD+f5u5Ccfrabbt8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\avatars\\a7c50630-1cad-4332-ba08-88259a0a3125_187340714261380.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Asus\\Music\\Quản_lý_chi_tiêu_trong_gia_đình\\Backend\\FamilyExpenseTracker\\wwwroot\\uploads\\avatars\\b5f137f0-28b3-4909-8e71-1021c21fd70f_z7221398370576_4f51a5d654324075608193027aa56ac7.jpg",
+      "SourceId": "FamilyExpenseTracker",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Asus\\Music\\Quản_lý_chi_tiêu_trong_gia_đình\\Backend\\FamilyExpenseTracker\\wwwroot\\",
+      "BasePath": "_content/FamilyExpenseTracker",
+      "RelativePath": "uploads/avatars/b5f137f0-28b3-4909-8e71-1021c21fd70f_z7221398370576_4f51a5d654324075608193027aa56ac7#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "i5f1mtsaw5",
+      "Integrity": "9qzhgtsTIrVYqHnZHK7qZYIAmXOvoO51HTbLsGhaugE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\avatars\\b5f137f0-28b3-4909-8e71-1021c21fd70f_z7221398370576_4f51a5d654324075608193027aa56ac7.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Asus\\Music\\Quản_lý_chi_tiêu_trong_gia_đình\\Backend\\FamilyExpenseTracker\\wwwroot\\uploads\\avatars\\c1406b0e-629b-487b-800c-d3571a1e3ebd_187340714261380.jpg",
+      "SourceId": "FamilyExpenseTracker",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Asus\\Music\\Quản_lý_chi_tiêu_trong_gia_đình\\Backend\\FamilyExpenseTracker\\wwwroot\\",
+      "BasePath": "_content/FamilyExpenseTracker",
+      "RelativePath": "uploads/avatars/c1406b0e-629b-487b-800c-d3571a1e3ebd_187340714261380#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "g324iuffhf",
+      "Integrity": "nB2UL4wdM9UW/cp6j5e5jEJRzFDLD+f5u5Ccfrabbt8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\avatars\\c1406b0e-629b-487b-800c-d3571a1e3ebd_187340714261380.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Asus\\Music\\Quản_lý_chi_tiêu_trong_gia_đình\\Backend\\FamilyExpenseTracker\\wwwroot\\uploads\\avatars\\e8c24631-7fcb-47a3-b34c-5afb552718b5_187340714261380.jpg",
+      "SourceId": "FamilyExpenseTracker",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Asus\\Music\\Quản_lý_chi_tiêu_trong_gia_đình\\Backend\\FamilyExpenseTracker\\wwwroot\\",
+      "BasePath": "_content/FamilyExpenseTracker",
+      "RelativePath": "uploads/avatars/e8c24631-7fcb-47a3-b34c-5afb552718b5_187340714261380#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "g324iuffhf",
+      "Integrity": "nB2UL4wdM9UW/cp6j5e5jEJRzFDLD+f5u5Ccfrabbt8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\avatars\\e8c24631-7fcb-47a3-b34c-5afb552718b5_187340714261380.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Asus\\Music\\Quản_lý_chi_tiêu_trong_gia_đình\\Backend\\FamilyExpenseTracker\\wwwroot\\uploads\\avatars\\ef3e10bf-9c3c-4a05-8f2c-5146aff39d88_z7221398370576_4f51a5d654324075608193027aa56ac7.jpg",
+      "SourceId": "FamilyExpenseTracker",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Asus\\Music\\Quản_lý_chi_tiêu_trong_gia_đình\\Backend\\FamilyExpenseTracker\\wwwroot\\",
+      "BasePath": "_content/FamilyExpenseTracker",
+      "RelativePath": "uploads/avatars/ef3e10bf-9c3c-4a05-8f2c-5146aff39d88_z7221398370576_4f51a5d654324075608193027aa56ac7#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "i5f1mtsaw5",
+      "Integrity": "9qzhgtsTIrVYqHnZHK7qZYIAmXOvoO51HTbLsGhaugE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\avatars\\ef3e10bf-9c3c-4a05-8f2c-5146aff39d88_z7221398370576_4f51a5d654324075608193027aa56ac7.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "uploads/avatars/38ac2d4c-ed66-451f-9f46-6ff114236363_102008532940594.jpg",
+      "AssetFile": "C:\\Users\\Asus\\Music\\Quản_lý_chi_tiêu_trong_gia_đình\\Backend\\FamilyExpenseTracker\\wwwroot\\uploads\\avatars\\38ac2d4c-ed66-451f-9f46-6ff114236363_102008532940594.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "54497"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4n1osByjZiyti4CUtKi5PRB1Q7USYRMzDpz8PHPFx/E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 07 Apr 2026 08:01:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4n1osByjZiyti4CUtKi5PRB1Q7USYRMzDpz8PHPFx/E="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/avatars/38ac2d4c-ed66-451f-9f46-6ff114236363_102008532940594.us92cydbk9.jpg",
+      "AssetFile": "C:\\Users\\Asus\\Music\\Quản_lý_chi_tiêu_trong_gia_đình\\Backend\\FamilyExpenseTracker\\wwwroot\\uploads\\avatars\\38ac2d4c-ed66-451f-9f46-6ff114236363_102008532940594.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "54497"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4n1osByjZiyti4CUtKi5PRB1Q7USYRMzDpz8PHPFx/E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 07 Apr 2026 08:01:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "us92cydbk9"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/avatars/38ac2d4c-ed66-451f-9f46-6ff114236363_102008532940594.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4n1osByjZiyti4CUtKi5PRB1Q7USYRMzDpz8PHPFx/E="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/avatars/528bf114-d2b2-4491-9356-0a7e9ac96831_109451725519747.jpg",
+      "AssetFile": "C:\\Users\\Asus\\Music\\Quản_lý_chi_tiêu_trong_gia_đình\\Backend\\FamilyExpenseTracker\\wwwroot\\uploads\\avatars\\528bf114-d2b2-4491-9356-0a7e9ac96831_109451725519747.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18970"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZBsSanqLx4o2L9GuGOMhpeKv3VxByaFpnHv96y/DB/g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 07 Apr 2026 09:11:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZBsSanqLx4o2L9GuGOMhpeKv3VxByaFpnHv96y/DB/g="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/avatars/528bf114-d2b2-4491-9356-0a7e9ac96831_109451725519747.org222dgo6.jpg",
+      "AssetFile": "C:\\Users\\Asus\\Music\\Quản_lý_chi_tiêu_trong_gia_đình\\Backend\\FamilyExpenseTracker\\wwwroot\\uploads\\avatars\\528bf114-d2b2-4491-9356-0a7e9ac96831_109451725519747.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18970"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZBsSanqLx4o2L9GuGOMhpeKv3VxByaFpnHv96y/DB/g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 07 Apr 2026 09:11:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "org222dgo6"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/avatars/528bf114-d2b2-4491-9356-0a7e9ac96831_109451725519747.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZBsSanqLx4o2L9GuGOMhpeKv3VxByaFpnHv96y/DB/g="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/avatars/676a3169-bafc-471c-a54d-a53310694f43_109451725519747.jpg",
+      "AssetFile": "C:\\Users\\Asus\\Music\\Quản_lý_chi_tiêu_trong_gia_đình\\Backend\\FamilyExpenseTracker\\wwwroot\\uploads\\avatars\\676a3169-bafc-471c-a54d-a53310694f43_109451725519747.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18970"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZBsSanqLx4o2L9GuGOMhpeKv3VxByaFpnHv96y/DB/g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 07 Apr 2026 08:26:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZBsSanqLx4o2L9GuGOMhpeKv3VxByaFpnHv96y/DB/g="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/avatars/676a3169-bafc-471c-a54d-a53310694f43_109451725519747.org222dgo6.jpg",
+      "AssetFile": "C:\\Users\\Asus\\Music\\Quản_lý_chi_tiêu_trong_gia_đình\\Backend\\FamilyExpenseTracker\\wwwroot\\uploads\\avatars\\676a3169-bafc-471c-a54d-a53310694f43_109451725519747.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18970"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZBsSanqLx4o2L9GuGOMhpeKv3VxByaFpnHv96y/DB/g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 07 Apr 2026 08:26:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "org222dgo6"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/avatars/676a3169-bafc-471c-a54d-a53310694f43_109451725519747.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZBsSanqLx4o2L9GuGOMhpeKv3VxByaFpnHv96y/DB/g="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/avatars/a7c50630-1cad-4332-ba08-88259a0a3125_187340714261380.g324iuffhf.jpg",
+      "AssetFile": "C:\\Users\\Asus\\Music\\Quản_lý_chi_tiêu_trong_gia_đình\\Backend\\FamilyExpenseTracker\\wwwroot\\uploads\\avatars\\a7c50630-1cad-4332-ba08-88259a0a3125_187340714261380.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "46911"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nB2UL4wdM9UW/cp6j5e5jEJRzFDLD+f5u5Ccfrabbt8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 07 Apr 2026 09:11:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g324iuffhf"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/avatars/a7c50630-1cad-4332-ba08-88259a0a3125_187340714261380.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nB2UL4wdM9UW/cp6j5e5jEJRzFDLD+f5u5Ccfrabbt8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/avatars/a7c50630-1cad-4332-ba08-88259a0a3125_187340714261380.jpg",
+      "AssetFile": "C:\\Users\\Asus\\Music\\Quản_lý_chi_tiêu_trong_gia_đình\\Backend\\FamilyExpenseTracker\\wwwroot\\uploads\\avatars\\a7c50630-1cad-4332-ba08-88259a0a3125_187340714261380.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "46911"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nB2UL4wdM9UW/cp6j5e5jEJRzFDLD+f5u5Ccfrabbt8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 07 Apr 2026 09:11:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nB2UL4wdM9UW/cp6j5e5jEJRzFDLD+f5u5Ccfrabbt8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/avatars/b5f137f0-28b3-4909-8e71-1021c21fd70f_z7221398370576_4f51a5d654324075608193027aa56ac7.i5f1mtsaw5.jpg",
+      "AssetFile": "C:\\Users\\Asus\\Music\\Quản_lý_chi_tiêu_trong_gia_đình\\Backend\\FamilyExpenseTracker\\wwwroot\\uploads\\avatars\\b5f137f0-28b3-4909-8e71-1021c21fd70f_z7221398370576_4f51a5d654324075608193027aa56ac7.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8869"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9qzhgtsTIrVYqHnZHK7qZYIAmXOvoO51HTbLsGhaugE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 07 Apr 2026 08:01:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i5f1mtsaw5"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/avatars/b5f137f0-28b3-4909-8e71-1021c21fd70f_z7221398370576_4f51a5d654324075608193027aa56ac7.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9qzhgtsTIrVYqHnZHK7qZYIAmXOvoO51HTbLsGhaugE="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/avatars/b5f137f0-28b3-4909-8e71-1021c21fd70f_z7221398370576_4f51a5d654324075608193027aa56ac7.jpg",
+      "AssetFile": "C:\\Users\\Asus\\Music\\Quản_lý_chi_tiêu_trong_gia_đình\\Backend\\FamilyExpenseTracker\\wwwroot\\uploads\\avatars\\b5f137f0-28b3-4909-8e71-1021c21fd70f_z7221398370576_4f51a5d654324075608193027aa56ac7.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8869"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9qzhgtsTIrVYqHnZHK7qZYIAmXOvoO51HTbLsGhaugE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 07 Apr 2026 08:01:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9qzhgtsTIrVYqHnZHK7qZYIAmXOvoO51HTbLsGhaugE="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/avatars/c1406b0e-629b-487b-800c-d3571a1e3ebd_187340714261380.g324iuffhf.jpg",
+      "AssetFile": "C:\\Users\\Asus\\Music\\Quản_lý_chi_tiêu_trong_gia_đình\\Backend\\FamilyExpenseTracker\\wwwroot\\uploads\\avatars\\c1406b0e-629b-487b-800c-d3571a1e3ebd_187340714261380.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "46911"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nB2UL4wdM9UW/cp6j5e5jEJRzFDLD+f5u5Ccfrabbt8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 07 Apr 2026 08:02:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g324iuffhf"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/avatars/c1406b0e-629b-487b-800c-d3571a1e3ebd_187340714261380.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nB2UL4wdM9UW/cp6j5e5jEJRzFDLD+f5u5Ccfrabbt8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/avatars/c1406b0e-629b-487b-800c-d3571a1e3ebd_187340714261380.jpg",
+      "AssetFile": "C:\\Users\\Asus\\Music\\Quản_lý_chi_tiêu_trong_gia_đình\\Backend\\FamilyExpenseTracker\\wwwroot\\uploads\\avatars\\c1406b0e-629b-487b-800c-d3571a1e3ebd_187340714261380.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "46911"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nB2UL4wdM9UW/cp6j5e5jEJRzFDLD+f5u5Ccfrabbt8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 07 Apr 2026 08:02:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nB2UL4wdM9UW/cp6j5e5jEJRzFDLD+f5u5Ccfrabbt8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/avatars/e8c24631-7fcb-47a3-b34c-5afb552718b5_187340714261380.g324iuffhf.jpg",
+      "AssetFile": "C:\\Users\\Asus\\Music\\Quản_lý_chi_tiêu_trong_gia_đình\\Backend\\FamilyExpenseTracker\\wwwroot\\uploads\\avatars\\e8c24631-7fcb-47a3-b34c-5afb552718b5_187340714261380.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "46911"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nB2UL4wdM9UW/cp6j5e5jEJRzFDLD+f5u5Ccfrabbt8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 07 Apr 2026 08:27:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g324iuffhf"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/avatars/e8c24631-7fcb-47a3-b34c-5afb552718b5_187340714261380.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nB2UL4wdM9UW/cp6j5e5jEJRzFDLD+f5u5Ccfrabbt8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/avatars/e8c24631-7fcb-47a3-b34c-5afb552718b5_187340714261380.jpg",
+      "AssetFile": "C:\\Users\\Asus\\Music\\Quản_lý_chi_tiêu_trong_gia_đình\\Backend\\FamilyExpenseTracker\\wwwroot\\uploads\\avatars\\e8c24631-7fcb-47a3-b34c-5afb552718b5_187340714261380.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "46911"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nB2UL4wdM9UW/cp6j5e5jEJRzFDLD+f5u5Ccfrabbt8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 07 Apr 2026 08:27:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nB2UL4wdM9UW/cp6j5e5jEJRzFDLD+f5u5Ccfrabbt8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/avatars/ef3e10bf-9c3c-4a05-8f2c-5146aff39d88_z7221398370576_4f51a5d654324075608193027aa56ac7.i5f1mtsaw5.jpg",
+      "AssetFile": "C:\\Users\\Asus\\Music\\Quản_lý_chi_tiêu_trong_gia_đình\\Backend\\FamilyExpenseTracker\\wwwroot\\uploads\\avatars\\ef3e10bf-9c3c-4a05-8f2c-5146aff39d88_z7221398370576_4f51a5d654324075608193027aa56ac7.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8869"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9qzhgtsTIrVYqHnZHK7qZYIAmXOvoO51HTbLsGhaugE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 07 Apr 2026 08:01:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i5f1mtsaw5"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/avatars/ef3e10bf-9c3c-4a05-8f2c-5146aff39d88_z7221398370576_4f51a5d654324075608193027aa56ac7.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9qzhgtsTIrVYqHnZHK7qZYIAmXOvoO51HTbLsGhaugE="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/avatars/ef3e10bf-9c3c-4a05-8f2c-5146aff39d88_z7221398370576_4f51a5d654324075608193027aa56ac7.jpg",
+      "AssetFile": "C:\\Users\\Asus\\Music\\Quản_lý_chi_tiêu_trong_gia_đình\\Backend\\FamilyExpenseTracker\\wwwroot\\uploads\\avatars\\ef3e10bf-9c3c-4a05-8f2c-5146aff39d88_z7221398370576_4f51a5d654324075608193027aa56ac7.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8869"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9qzhgtsTIrVYqHnZHK7qZYIAmXOvoO51HTbLsGhaugE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 07 Apr 2026 08:01:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9qzhgtsTIrVYqHnZHK7qZYIAmXOvoO51HTbLsGhaugE="
+        }
+      ]
+    }
+  ]
+}

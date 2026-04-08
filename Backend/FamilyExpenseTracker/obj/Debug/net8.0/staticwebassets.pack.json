@@ -1,0 +1,57 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Asus\\Music\\Quản_lý_chi_tiêu_trong_gia_đình\\Backend\\FamilyExpenseTracker\\wwwroot\\uploads\\avatars\\38ac2d4c-ed66-451f-9f46-6ff114236363_102008532940594.jpg",
+      "PackagePath": "staticwebassets\\uploads\\avatars\\38ac2d4c-ed66-451f-9f46-6ff114236363_102008532940594.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\Music\\Quản_lý_chi_tiêu_trong_gia_đình\\Backend\\FamilyExpenseTracker\\wwwroot\\uploads\\avatars\\528bf114-d2b2-4491-9356-0a7e9ac96831_109451725519747.jpg",
+      "PackagePath": "staticwebassets\\uploads\\avatars\\528bf114-d2b2-4491-9356-0a7e9ac96831_109451725519747.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\Music\\Quản_lý_chi_tiêu_trong_gia_đình\\Backend\\FamilyExpenseTracker\\wwwroot\\uploads\\avatars\\676a3169-bafc-471c-a54d-a53310694f43_109451725519747.jpg",
+      "PackagePath": "staticwebassets\\uploads\\avatars\\676a3169-bafc-471c-a54d-a53310694f43_109451725519747.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\Music\\Quản_lý_chi_tiêu_trong_gia_đình\\Backend\\FamilyExpenseTracker\\wwwroot\\uploads\\avatars\\a7c50630-1cad-4332-ba08-88259a0a3125_187340714261380.jpg",
+      "PackagePath": "staticwebassets\\uploads\\avatars\\a7c50630-1cad-4332-ba08-88259a0a3125_187340714261380.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\Music\\Quản_lý_chi_tiêu_trong_gia_đình\\Backend\\FamilyExpenseTracker\\wwwroot\\uploads\\avatars\\b5f137f0-28b3-4909-8e71-1021c21fd70f_z7221398370576_4f51a5d654324075608193027aa56ac7.jpg",
+      "PackagePath": "staticwebassets\\uploads\\avatars\\b5f137f0-28b3-4909-8e71-1021c21fd70f_z7221398370576_4f51a5d654324075608193027aa56ac7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\Music\\Quản_lý_chi_tiêu_trong_gia_đình\\Backend\\FamilyExpenseTracker\\wwwroot\\uploads\\avatars\\c1406b0e-629b-487b-800c-d3571a1e3ebd_187340714261380.jpg",
+      "PackagePath": "staticwebassets\\uploads\\avatars\\c1406b0e-629b-487b-800c-d3571a1e3ebd_187340714261380.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\Music\\Quản_lý_chi_tiêu_trong_gia_đình\\Backend\\FamilyExpenseTracker\\wwwroot\\uploads\\avatars\\e8c24631-7fcb-47a3-b34c-5afb552718b5_187340714261380.jpg",
+      "PackagePath": "staticwebassets\\uploads\\avatars\\e8c24631-7fcb-47a3-b34c-5afb552718b5_187340714261380.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\Music\\Quản_lý_chi_tiêu_trong_gia_đình\\Backend\\FamilyExpenseTracker\\wwwroot\\uploads\\avatars\\ef3e10bf-9c3c-4a05-8f2c-5146aff39d88_z7221398370576_4f51a5d654324075608193027aa56ac7.jpg",
+      "PackagePath": "staticwebassets\\uploads\\avatars\\ef3e10bf-9c3c-4a05-8f2c-5146aff39d88_z7221398370576_4f51a5d654324075608193027aa56ac7.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.FamilyExpenseTracker.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.FamilyExpenseTracker.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.FamilyExpenseTracker.props",
+      "PackagePath": "build\\FamilyExpenseTracker.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.FamilyExpenseTracker.props",
+      "PackagePath": "buildMultiTargeting\\FamilyExpenseTracker.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.FamilyExpenseTracker.props",
+      "PackagePath": "buildTransitive\\FamilyExpenseTracker.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

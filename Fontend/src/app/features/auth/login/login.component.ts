@@ -1,0 +1,174 @@
+import { Component, inject } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { FormsModule, ReactiveFormsModule, FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { Router, RouterLink } from '@angular/router';
+import { AuthService } from '../../../core/services/auth.service';
+import { LucideAngularModule } from 'lucide-angular';
+
+@Component({
+  selector: 'app-login',
+  standalone: true,
+  imports: [CommonModule, ReactiveFormsModule, FormsModule, RouterLink, LucideAngularModule],
+  template: `
+    <div class="min-h-screen bg-cute_mint flex items-center justify-center p-6 font-sans">
+      <div class="max-w-md w-full bg-white rounded-5xl shadow-2xl shadow-teal-200/50 border-8 border-white overflow-hidden transform hover:scale-[1.01] transition-transform duration-500">
+        <!-- Header -->
+        <div class="bg-gradient-to-br from-cute_purple to-cute_pink p-10 text-white text-center relative overflow-hidden">
+          <div class="relative z-10 flex flex-col items-center">
+            <div class="bg-white/40 p-4 rounded-[2rem] w-fit mx-auto mb-6 backdrop-blur-md border-[3px] border-white/50 rotate-3 shadow-xl hover:rotate-6 transition-all duration-300 animate-float">
+               <img src="https://media.giphy.com/media/ICOgUNjpvO0PC/giphy.gif" alt="Cute Cat" class="w-16 h-16 rounded-xl object-cover">
+            </div>
+            <h2 class="text-4xl font-black tracking-tighter mb-3 drop-shadow-md">Mừng bạn về nhà! <span class="animate-pulse inline-block">💖</span></h2>
+            <p class="text-white/90 font-bold text-[13px] uppercase tracking-[0.2em] leading-none bg-white/20 px-5 py-2 rounded-full shadow-sm backdrop-blur-sm border border-white/30">Cùng quản lý tổ ấm nhé</p>
+          </div>
+          
+          <!-- Decorative Elements -->
+          <div class="absolute w-12 h-12 text-white/40 top-4 left-6 animate-float-delayed"><lucide-icon name="star" [size]="48" class="fill-current"></lucide-icon></div>
+          <div class="absolute w-8 h-8 text-white/40 bottom-6 right-8 animate-float"><lucide-icon name="heart" [size]="32" class="fill-current"></lucide-icon></div>
+          <div class="absolute -top-12 -right-12 w-48 h-48 bg-white/30 rounded-full blur-2xl animate-float"></div>
+          <div class="absolute -bottom-12 -left-12 w-40 h-40 bg-pink-300/40 rounded-full blur-xl animate-float-delayed"></div>
+        </div>
+
+        <!-- Form -->
+        <div class="p-10">
+          <form [formGroup]="loginForm" (ngSubmit)="onSubmit()" class="space-y-6">
+            <div>
+              <label class="block text-xs font-black text-slate-400 uppercase tracking-widest mb-2 px-1">Email của bạn</label>
+              <div class="relative group">
+                <span class="absolute inset-y-0 left-0 pl-4 flex items-center text-slate-400 group-focus-within:text-cute_purple transition-colors">
+                  <lucide-icon name="mail" [size]="20"></lucide-icon>
+                </span>
+                <input 
+                  type="email" 
+                  formControlName="email"
+                  class="w-full pl-12 pr-4 py-4 bg-slate-50 border-4 border-slate-100 rounded-3xl focus:border-cute_purple outline-none transition-all font-bold text-slate-800 placeholder:text-slate-300 shadow-inner"
+                  placeholder="name@honey.com"
+                >
+              </div>
+              <div *ngIf="f['email'].touched && f['email'].errors" class="text-[10px] font-black text-danger mt-2 px-2 uppercase tracking-tighter">
+                <span *ngIf="f['email'].errors['required']">Đừng quên nhập email nha!</span>
+                <span *ngIf="f['email'].errors['email']">Email này hơi lạ, bạn kiểm tra lại thử?</span>
+              </div>
+            </div>
+
+            <div>
+              <div class="flex justify-between items-center mb-2 px-1">
+                <label class="text-xs font-black text-slate-400 uppercase tracking-widest">Mật khẩu bí mật</label>
+                <a routerLink="/forgot-password" class="text-xs font-bold text-cute_purple hover:underline">Quên rồi ạ?</a>
+              </div>
+              <div class="relative group">
+                <span class="absolute inset-y-0 left-0 pl-4 flex items-center text-slate-400 group-focus-within:text-cute_purple transition-colors">
+                  <lucide-icon name="lock" [size]="20"></lucide-icon>
+                </span>
+                <input 
+                  [type]="showPassword ? 'text' : 'password'" 
+                  formControlName="password"
+                  class="w-full pl-12 pr-12 py-4 bg-slate-50 border-4 border-slate-100 rounded-3xl focus:border-cute_purple outline-none transition-all font-bold text-slate-800 placeholder:text-slate-300 shadow-inner"
+                  placeholder="••••••••"
+                >
+                <button 
+                  type="button"
+                  (click)="showPassword = !showPassword"
+                  class="absolute inset-y-0 right-0 pr-4 flex items-center text-slate-400 hover:text-cute_purple transition-colors"
+                >
+                  <lucide-icon [name]="showPassword ? 'eye-off' : 'eye'" [size]="20"></lucide-icon>
+                </button>
+              </div>
+              <div *ngIf="f['password'].touched && f['password'].errors" class="text-[10px] font-black text-danger mt-2 px-2 uppercase tracking-tighter">
+                <span *ngIf="f['password'].errors['required']">Mật khẩu quan trọng lắm đó!</span>
+              </div>
+            </div>
+
+            <button 
+              type="submit" 
+              [disabled]="loginForm.invalid || loading"
+              class="w-full bg-cute_purple hover:bg-purple-600 text-white font-black py-4 rounded-3xl transition-all transform hover:scale-[1.03] active:scale-95 disabled:opacity-70 disabled:cursor-not-allowed shadow-xl shadow-purple-100 mt-4 text-lg tracking-tight"
+            >
+              <span *ngIf="!loading" class="flex items-center justify-center gap-2">
+                Đăng nhập ngay
+                <lucide-icon name="arrow-right-circle" [size]="24"></lucide-icon>
+              </span>
+              <span *ngIf="loading" class="flex items-center justify-center gap-3">
+                <svg class="animate-spin h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                  <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                  <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                </svg>
+                Đang mở cửa...
+              </span>
+            </button>
+
+            <div *ngIf="error" class="bg-danger/10 text-danger text-[11px] font-bold p-4 rounded-2xl border-2 border-danger/20 text-center animate-shake">
+              {{ error }}
+            </div>
+          </form>
+
+          <div class="mt-10 pt-8 border-t-2 border-slate-50 text-center">
+            <p class="text-sm font-bold text-slate-400">
+              Chưa có tài khoản ư? 
+              <a routerLink="/register" class="font-black text-cute_pink hover:underline ml-1">Đăng ký thành viên!</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  `,
+  styles: [`
+    .animate-float { animation: float 6s ease-in-out infinite; }
+    .animate-float-delayed { animation: float 6s ease-in-out 3s infinite; }
+    @keyframes float {
+      0%, 100% { transform: translateY(0px) rotate(0deg); }
+      50% { transform: translateY(-15px) rotate(8deg); }
+    }
+    .animate-shake {
+      animation: shake 0.5s cubic-bezier(.36,.07,.19,.97) both;
+    }
+    @keyframes shake {
+      10%, 90% { transform: translate3d(-1px, 0, 0); }
+      20%, 80% { transform: translate3d(2px, 0, 0); }
+      30%, 50%, 70% { transform: translate3d(-4px, 0, 0); }
+      40%, 60% { transform: translate3d(4px, 0, 0); }
+    }
+    :host {
+      display: block;
+    }
+  `]
+})
+export class LoginComponent {
+  private fb = inject(FormBuilder);
+  private authService = inject(AuthService);
+  private router = inject(Router);
+
+  loginForm: FormGroup;
+  loading = false;
+  error = '';
+  showPassword = false;
+
+  constructor() {
+    this.loginForm = this.fb.group({
+      email: ['', [Validators.required, Validators.email]],
+      password: ['', [Validators.required]]
+    });
+  }
+
+  get f() { return this.loginForm.controls; }
+
+  onSubmit() {
+    if (this.loginForm.invalid) return;
+
+    this.loading = true;
+    this.error = '';
+
+    const { email, password } = this.loginForm.value;
+    
+    this.authService.login(email, password).subscribe({
+      next: () => {
+        const returnUrl = this.router.routerState.snapshot.root.queryParams['returnUrl'] || '/';
+        this.router.navigateByUrl(returnUrl);
+      },
+      error: err => {
+        this.error = 'Email hoặc mật khẩu chưa đúng rùi, thử lại nha!';
+        this.loading = false;
+      }
+    });
+  }
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\FamilyExpenseTracker.props" />
+</Project>
