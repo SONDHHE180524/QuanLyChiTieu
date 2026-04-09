@@ -145,3 +145,4 @@ C:\Users\Asus\Music\Quản_lý_chi_tiêu_trong_gia_đình\Backend\FamilyExpenseT
 C:\Users\Asus\Music\Quản_lý_chi_tiêu_trong_gia_đình\Backend\FamilyExpenseTracker\obj\Debug\net8.0\FamilyExpenseTracker.pdb
 C:\Users\Asus\Music\Quản_lý_chi_tiêu_trong_gia_đình\Backend\FamilyExpenseTracker\obj\Debug\net8.0\FamilyExpenseTracker.genruntimeconfig.cache
 C:\Users\Asus\Music\Quản_lý_chi_tiêu_trong_gia_đình\Backend\FamilyExpenseTracker\obj\Debug\net8.0\ref\FamilyExpenseTracker.dll
+C:\Users\Asus\Music\Quản_lý_chi_tiêu_trong_gia_đình\Backend\FamilyExpenseTracker\obj\Debug\net8.0\FamilyExpenseTracker.sourcelink.json

@@ -72,49 +72,8 @@ import { animate, style, transition, trigger } from '@angular/animations';
             </div>
           </div>
 
-          <!-- Inline Add Category Form -->
-          <div *ngIf="isAddingCategory" class="p-5 bg-teal-50/50 border-4 border-white rounded-[2.5rem] animate-slide-down shadow-xl shadow-teal-100/30 overflow-hidden ring-4 ring-teal-50">
-            <div class="flex gap-2">
-              <button 
-                type="button"
-                (click)="toggleAddingCategory()"
-                class="bg-white text-slate-400 p-3 rounded-2xl hover:text-danger hover:bg-danger/10 transition-all border-2 border-white shadow-sm active:scale-90"
-                title="Quay lại"
-              >
-                <lucide-icon name="arrow-left-circle" [size]="24"></lucide-icon>
-              </button>
-              
-              <input 
-                name="newCategoryName"
-                [(ngModel)]="newCategoryName"
-                type="text" 
-                placeholder="Tên danh mục mới..." 
-                class="flex-1 px-5 py-3 text-sm font-bold border-4 border-white rounded-2xl outline-none focus:border-info/30 bg-white shadow-inner">
-              
-              <button 
-                type="button"
-                (click)="addNewCategory()"
-                [disabled]="!newCategoryName || isSavingCategory"
-                class="bg-info text-white px-5 rounded-2xl hover:bg-blue-600 disabled:opacity-50 transition-all shadow-lg shadow-blue-100 active:scale-90"
-              >
-                <lucide-icon [name]="isSavingCategory ? 'sparkles' : 'check'" [size]="20" [class.animate-spin]="isSavingCategory"></lucide-icon>
-              </button>
-            </div>
-            
-            <div class="mt-4 flex items-center justify-center gap-8 px-2 py-2.5 bg-white/60 rounded-2xl border-2 border-white">
-               <label class="flex items-center gap-2 cursor-pointer group">
-                 <input type="radio" name="newCatType" value="Chi" [(ngModel)]="newCategoryType" class="w-4 h-4 text-danger focus:ring-danger border-slate-200">
-                 <span class="text-[10px] font-black text-slate-500 uppercase tracking-widest group-hover:text-danger transition-colors">Khoản Chi</span>
-               </label>
-               <label class="flex items-center gap-2 cursor-pointer group">
-                 <input type="radio" name="newCatType" value="Thu" [(ngModel)]="newCategoryType" class="w-4 h-4 text-secondary focus:ring-secondary border-slate-200">
-                 <span class="text-[10px] font-black text-slate-500 uppercase tracking-widest group-hover:text-secondary transition-colors">Khoản Thu</span>
-               </label>
-            </div>
-          </div>
-
           <!-- Custom Dropdown Selector -->
-          <div class="relative" *ngIf="!isAddingCategory">
+          <div class="relative">
             <!-- Dropdown Trigger Button -->
             <div 
               (click)="isDropdownOpen = !isDropdownOpen"
@@ -253,8 +212,67 @@ import { animate, style, transition, trigger } from '@angular/animations';
       </div>
     </div>
 
+    <!-- Add Category Modal -->
+    <div *ngIf="isAddingCategory" class="fixed inset-0 z-[120] flex items-center justify-center p-6 bg-slate-900/40 backdrop-blur-md" [@fadeInOut]>
+      <div class="bg-white w-full max-w-md rounded-[3rem] shadow-[0_30px_100px_rgba(0,0,0,0.3)] border-8 border-white overflow-hidden flex flex-col" [@modalSlide]>
+        <div class="p-8 border-b-2 border-slate-50 flex justify-between items-center bg-teal-50/30">
+          <div class="flex items-center gap-4">
+            <div class="p-3 bg-info rounded-2xl shadow-lg shadow-blue-100">
+              <lucide-icon name="plus-circle" class="text-white" [size]="24"></lucide-icon>
+            </div>
+            <h2 class="text-2xl font-black tracking-tight text-slate-800">Thêm danh mục</h2>
+          </div>
+          <button (click)="toggleAddingCategory()" class="p-3 hover:bg-slate-100 rounded-xl transition-all active:scale-90">
+            <lucide-icon name="x" class="text-slate-400" [size]="20"></lucide-icon>
+          </button>
+        </div>
+
+        <div class="p-8 space-y-8">
+          <div>
+            <label class="block text-xs font-black text-slate-400 uppercase tracking-widest mb-3 px-1">Tên danh mục mới</label>
+            <input 
+              name="newCategoryName"
+              [(ngModel)]="newCategoryName"
+              type="text" 
+              placeholder="Ví dụ: Ăn uống, Tiền điện..." 
+              class="block w-full px-6 py-4 border-4 border-slate-100 rounded-2xl focus:ring-0 focus:border-info transition-all font-bold text-slate-800 bg-slate-50 outline-none text-base shadow-inner">
+          </div>
+
+          <div>
+            <label class="block text-xs font-black text-slate-400 uppercase tracking-widest mb-3 px-1">Loại danh mục</label>
+            <div class="flex p-2 bg-slate-100 rounded-2xl border-2 border-slate-200/50">
+              <button 
+                type="button"
+                (click)="newCategoryType = 'Chi'"
+                class="flex-1 py-3 text-xs font-black rounded-xl transition-all duration-300"
+                [ngClass]="newCategoryType === 'Chi' ? 'bg-danger text-white shadow-md scale-105' : 'text-slate-500 hover:bg-slate-200'">
+                KHOẢN CHI
+              </button>
+              <button 
+                type="button"
+                (click)="newCategoryType = 'Thu'"
+                class="flex-1 py-3 text-xs font-black rounded-xl transition-all duration-300 ml-2"
+                [ngClass]="newCategoryType === 'Thu' ? 'bg-secondary text-white shadow-md scale-105' : 'text-slate-500 hover:bg-slate-200'">
+                KHOẢN THU
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="p-8 bg-slate-50/50 border-t-2 border-slate-50">
+          <button 
+            (click)="addNewCategory()"
+            [disabled]="!newCategoryName || isSavingCategory"
+            class="w-full flex justify-center items-center gap-3 py-5 px-6 rounded-2xl bg-slate-800 hover:bg-slate-900 text-white font-black text-lg transition-all duration-300 transform active:scale-95 shadow-xl shadow-slate-200 disabled:opacity-50">
+            <lucide-icon [name]="isSavingCategory ? 'sparkles' : 'check'" [size]="24" [class.animate-spin]="isSavingCategory"></lucide-icon>
+            {{ isSavingCategory ? 'Đang lưu...' : 'Lưu Danh Mục' }}
+          </button>
+        </div>
+      </div>
+    </div>
+
     <!-- Custom Confirm Delete Modal -->
-    <div *ngIf="isConfirmingDelete" class="fixed inset-0 z-[110] flex items-center justify-center p-6 bg-slate-900/60 backdrop-blur-md" [@fadeInOut]>
+    <div *ngIf="isConfirmingDelete" class="fixed inset-0 z-[130] flex items-center justify-center p-6 bg-slate-900/60 backdrop-blur-md" [@fadeInOut]>
       <div class="bg-white w-full max-w-sm rounded-[2.5rem] shadow-[0_30px_100px_rgba(0,0,0,0.3)] border-4 border-white overflow-hidden p-8 text-center" [@modalSlide]>
         <div class="w-20 h-20 bg-danger/10 rounded-[1.5rem] flex items-center justify-center mx-auto mb-6 shadow-inner">
            <lucide-icon name="alert-circle" class="text-danger" [size]="40"></lucide-icon>
