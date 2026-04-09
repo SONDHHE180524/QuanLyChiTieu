@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiUrl: 'https://QuanLyChiTieu-backend.onrender.com/api'
+  apiUrl: 'https://quanlychitieu.up.railway.app/api'
 };
