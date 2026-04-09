@@ -17,23 +17,24 @@ namespace FamilyExpenseTracker
             builder.Services.AddDbContext<QuanLyChiTieuDbContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-            // === Đăng ký Services với Interface (Cách đúng) ===
+            // === Đăng ký Services ===
             builder.Services.AddScoped<IGiaoDichService, GiaoDichService>();
             builder.Services.AddScoped<IDanhMucService, DanhMucService>();
             builder.Services.AddScoped<INguoiDungService, NguoiDungService>();
             builder.Services.AddScoped<IEmailService, EmailService>();
 
-            // === Cấu hình CORS ===
+            // === Cấu hình CORS (Mở thoáng để test nhanh) ===
             builder.Services.AddCors(options =>
             {
-                options.AddPolicy("AllowAngular",
-                    policy => policy.WithOrigins("http://localhost:4200", "https://QuanLyChiTieu-web.vercel.app")
-                                    .AllowAnyMethod()
-                                    .AllowAnyHeader()
-                                    .AllowCredentials());
+                options.AddPolicy("AllowAll", policy =>
+                {
+                    policy.AllowAnyOrigin()
+                          .AllowAnyMethod()
+                          .AllowAnyHeader();
+                });
             });
 
-            // Tiết lập Port cho Render
+            // Thiết lập Port cho Railway/Docker
             var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
             builder.WebHost.UseUrls($"http://0.0.0.0:{port}");
 
@@ -62,7 +63,6 @@ namespace FamilyExpenseTracker
                 };
             });
 
-            // === Controllers ===
             builder.Services.AddControllers()
                 .AddJsonOptions(options =>
                 {
@@ -72,26 +72,21 @@ namespace FamilyExpenseTracker
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
-
             var app = builder.Build();
 
-            app.UseCors(policy => policy.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+            // THỨ TỰ MIDDLEWARE QUAN TRỌNG:
+            // 1. Dùng Swagger cho cả môi trường Production để dễ debug
+            app.UseSwagger();
+            app.UseSwaggerUI();
 
-            // Configure the HTTP request pipeline.
-            if (app.Environment.IsDevelopment())
-            {
-                app.UseSwagger();
-                app.UseSwaggerUI();
-            }
+            // 2. Kích hoạt CORS ngay sau Build
+            app.UseCors("AllowAll");
 
-            app.UseCors("AllowAngular");
-
-            // app.UseHttpsRedirection();
             app.UseStaticFiles();
 
+            // 3. Auth luôn nằm sau CORS
             app.UseAuthentication();
             app.UseAuthorization();
-
 
             app.MapControllers();
 
