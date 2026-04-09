@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Asus\\Music\\Qu\u1EA3n_l\u00FD_chi_ti\u00EAu_trong_gia_\u0111\u00ECnh\\Backend\\FamilyExpenseTracker\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8AA7F6BC-459C-4362-9697-6D559E5C7680}|FamilyExpenseTracker.csproj|c:\\users\\asus\\music\\qu\u1EA3n_l\u00FD_chi_ti\u00EAu_trong_gia_\u0111\u00ECnh\\backend\\familyexpensetracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AA7F6BC-459C-4362-9697-6D559E5C7680}|FamilyExpenseTracker.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8AA7F6BC-459C-4362-9697-6D559E5C7680}|FamilyExpenseTracker.csproj|c:\\users\\asus\\music\\qu\u1EA3n_l\u00FD_chi_ti\u00EAu_trong_gia_\u0111\u00ECnh\\backend\\familyexpensetracker\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{8AA7F6BC-459C-4362-9697-6D559E5C7680}|FamilyExpenseTracker.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8AA7F6BC-459C-4362-9697-6D559E5C7680}|FamilyExpenseTracker.csproj|c:\\users\\asus\\music\\qu\u1EA3n_l\u00FD_chi_ti\u00EAu_trong_gia_\u0111\u00ECnh\\backend\\familyexpensetracker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{8AA7F6BC-459C-4362-9697-6D559E5C7680}|FamilyExpenseTracker.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8AA7F6BC-459C-4362-9697-6D559E5C7680}|FamilyExpenseTracker.csproj|c:\\users\\asus\\music\\qu\u1EA3n_l\u00FD_chi_ti\u00EAu_trong_gia_\u0111\u00ECnh\\backend\\familyexpensetracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8AA7F6BC-459C-4362-9697-6D559E5C7680}|FamilyExpenseTracker.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8AA7F6BC-459C-4362-9697-6D559E5C7680}|FamilyExpenseTracker.csproj|c:\\users\\asus\\music\\qu\u1EA3n_l\u00FD_chi_ti\u00EAu_trong_gia_\u0111\u00ECnh\\backend\\familyexpensetracker\\services\\danhmucservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -110,7 +110,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -138,7 +138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Users\\Asus\\Music\\Qu\u1EA3n_l\u00FD_chi_ti\u00EAu_trong_gia_\u0111\u00ECnh\\Backend\\FamilyExpenseTracker\\Dockerfile",
               "RelativeDocumentMoniker": "Dockerfile",
@@ -211,6 +211,23 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Music\\Qu\u1EA3n_l\u00FD_chi_ti\u00EAu_trong_gia_\u0111\u00ECnh\\Backend\\FamilyExpenseTracker\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Asus\\Music\\Qu\u1EA3n_l\u00FD_chi_ti\u00EAu_trong_gia_\u0111\u00ECnh\\Backend\\FamilyExpenseTracker\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAASwFEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T03:50:40.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
               "Title": "DanhMucService.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Music\\Qu\u1EA3n_l\u00FD_chi_ti\u00EAu_trong_gia_\u0111\u00ECnh\\Backend\\FamilyExpenseTracker\\Services\\DanhMucService.cs",
@@ -223,7 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Asus\\Music\\Qu\u1EA3n_l\u00FD_chi_ti\u00EAu_trong_gia_\u0111\u00ECnh\\Backend\\FamilyExpenseTracker\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -231,20 +248,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAUAQAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-06T03:50:24.531Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\Music\\Qu\u1EA3n_l\u00FD_chi_ti\u00EAu_trong_gia_\u0111\u00ECnh\\Backend\\FamilyExpenseTracker\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Asus\\Music\\Qu\u1EA3n_l\u00FD_chi_ti\u00EAu_trong_gia_\u0111\u00ECnh\\Backend\\FamilyExpenseTracker\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAgwB4AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T03:50:40.339Z"
+              "WhenOpened": "2026-04-06T03:50:24.531Z"
             },
             {
               "$type": "Document",
@@ -437,10 +441,6 @@
               "ViewState": "AgIAABYAAAAAAAAAAIBQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-06T03:51:00.276Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             }
           ]
         }
